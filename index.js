@@ -24,7 +24,7 @@ const clock=()=>{
 
   var a = time.getHours();
   const value=parseInt(a)>=12?'PM':'AM';
-  am_pm.innerText=value;
+  am_pm[0].innerText=value;
 
 
   if(hour==0){
